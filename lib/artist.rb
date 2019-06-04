@@ -26,6 +26,6 @@ class Artist
   end
   
   def print_songs
-    print self.songs.join(", ")
+    print self.songs.each {|songs|join(", ")
   end
 end
